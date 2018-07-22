@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Flynas]" allow-return-values="true">
+  <test name="Grouping(failed)">
+    <classes>
+      <class name="flynas.ios.uat.reg.TC01_b_verifyRegistrationFailurewithExistingEmailID">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+          <include name="TC_01_b_verifyRegistrationFailurewithExistingEmailID" invocation-numbers="0"/>
+          <include name="setupSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- flynas.ios.uat.reg.TC01_b_verifyRegistrationFailurewithExistingEmailID -->
+      <class name="flynas.ios.uat.reg.TC01_a_memberRegistration">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="TC_01_a_memberRegistration" invocation-numbers="0"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- flynas.ios.uat.reg.TC01_a_memberRegistration -->
+    </classes>
+  </test> <!-- Grouping(failed) -->
+</suite> <!-- Failed suite [Flynas] -->

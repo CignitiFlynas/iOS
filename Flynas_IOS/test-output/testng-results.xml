@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58543" started-at="2018-07-16T07:34:53Z" finished-at="2018-07-16T07:35:52Z">
+    <groups>
+      <group name="ios">
+        <method signature="TC02_a_oneWayDomesticSimple1AdultCC.TC_2a_oneWayDomesticBusinessCC(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:flynas.ios.uat.reg.TC02_a_oneWayDomesticSimple1AdultCC@22f59fa]" name="TC_2a_oneWayDomesticBusinessCC" class="flynas.ios.uat.reg.TC02_a_oneWayDomesticSimple1AdultCC"/>
+      </group> <!-- ios -->
+    </groups>
+    <test name="Default test" duration-ms="58543" started-at="2018-07-16T07:34:53Z" finished-at="2018-07-16T07:35:52Z">
+      <class name="flynas.ios.uat.reg.TC02_a_oneWayDomesticSimple1AdultCC">
+        <test-method status="PASS" signature="setupSuite(org.testng.ITestContext)[pri:0, instance:flynas.ios.uat.reg.TC02_a_oneWayDomesticSimple1AdultCC@22f59fa]" name="setupSuite" is-config="true" duration-ms="66872" started-at="2018-07-16T13:03:47Z" finished-at="2018-07-16T13:04:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4b6ac111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="reportHeader(java.lang.reflect.Method)[pri:0, instance:flynas.ios.uat.reg.TC02_a_oneWayDomesticSimple1AdultCC@22f59fa]" name="reportHeader" is-config="true" duration-ms="6391" started-at="2018-07-16T13:04:54Z" finished-at="2018-07-16T13:05:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void flynas.ios.uat.reg.TC02_a_oneWayDomesticSimple1AdultCC.TC_2a_oneWayDomesticBusinessCC(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportHeader -->
+        <test-method status="FAIL" signature="TC_2a_oneWayDomesticBusinessCC(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:flynas.ios.uat.reg.TC02_a_oneWayDomesticSimple1AdultCC@22f59fa]" name="TC_2a_oneWayDomesticBusinessCC" duration-ms="45181" started-at="2018-07-16T13:05:00Z" data-provider="testData" finished-at="2018-07-16T13:05:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[One Way]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[RUH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DMM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Day^119]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Day^121]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Economy]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Light]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[Domestic]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[Saudi Arabia]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[National ID Card]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[ABCD12ERT]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[503368612]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Value]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Business]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Credit Card]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[Validate One way Domestic one Adult Simple class booking]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Step Clicking on Book Icon Failed with description Failed to click on Book Icon expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Step Clicking on Book Icon Failed with description Failed to click on Book Icon expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:779)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:91)
+	at flynas.ios.workflows.Homepage.select_Bookflights(Homepage.java:18)
+	at flynas.ios.uat.reg.TC02_a_oneWayDomesticSimple1AdultCC.TC_2a_oneWayDomesticBusinessCC(TC02_a_oneWayDomesticSimple1AdultCC.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_2a_oneWayDomesticBusinessCC -->
+        <test-method status="PASS" signature="tearDownMethod()[pri:0, instance:flynas.ios.uat.reg.TC02_a_oneWayDomesticSimple1AdultCC@22f59fa]" name="tearDownMethod" is-config="true" duration-ms="6892" started-at="2018-07-16T13:05:45Z" finished-at="2018-07-16T13:05:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestContext)[pri:0, instance:flynas.ios.uat.reg.TC02_a_oneWayDomesticSimple1AdultCC@22f59fa]" name="tearDown" is-config="true" duration-ms="29" started-at="2018-07-16T13:05:52Z" finished-at="2018-07-16T13:05:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4b6ac111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- flynas.ios.uat.reg.TC02_a_oneWayDomesticSimple1AdultCC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
