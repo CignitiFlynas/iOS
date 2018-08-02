@@ -119,6 +119,7 @@ public class ActionEngine extends TestEngine {
 	{	
 		boolean flag = false;
 		try {
+			Thread.sleep(2000);
 			Iosdriver.findElementByAccessibilityId(title).click();
 			flag = true;
 		} catch (Exception e) {

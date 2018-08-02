@@ -166,12 +166,12 @@ public class TestEngine extends HtmlReportSupport {
 				System.out.println("In iphone block");
 				DeviceName = configProps.getProperty("iOSDeviceName");
 				String device = configProps.getProperty("Device");
-				String appPath = configProps.getProperty("appPath");
-				String ipaPath = configProps.getProperty("ipaPath");
-				String temp = System.getProperty("user.dir")+ipaPath;
-				String temp2 = System.getProperty("user.dir")+appPath;
-				File ipa = new File(temp);
-				File app = new File(temp2);
+				//String appPath = configProps.getProperty("appPath");
+				//String ipaPath = configProps.getProperty("ipaPath");
+				//String temp = System.getProperty("user.dir")+ipaPath;
+				//String temp2 = System.getProperty("user.dir")+appPath;
+				//File ipa = new File(temp);
+				//File app = new File(temp2);
 				String platformVer = configProps.getProperty("platformVersion");
 				String udid = configProps.getProperty("UDID");
 				bundleID = configProps.getProperty("BundleID");
@@ -200,16 +200,16 @@ public class TestEngine extends HtmlReportSupport {
 				System.out.println("DeviceName is : " + DeviceName);
 				if(DeviceName.equalsIgnoreCase("simulator")){
 					System.out.println("using simulator");
-					System.out.println("app Path "+app.getCanonicalPath());
-					capabilitiesForAppium.setCapability("app",app.getCanonicalPath());
+					//System.out.println("app Path "+app.getCanonicalPath());
+					//capabilitiesForAppium.setCapability("app",app.getCanonicalPath());
 					capabilitiesForAppium.setCapability(IOSMobileCapabilityType.LOCATION_SERVICES_AUTHORIZED, true);
 				}
 				else if(udid.length()>0)
 				{
 					System.out.println("+++++using real device   "+groupNames+"+++++");
 					capabilitiesForAppium.setCapability(MobileCapabilityType.UDID, udid);
-					System.out.println("ipa Path "+ipa.getCanonicalPath());
-					capabilitiesForAppium.setCapability(MobileCapabilityType.APP, ipa);
+					//System.out.println("ipa Path "+ipa.getCanonicalPath());
+					//capabilitiesForAppium.setCapability(MobileCapabilityType.APP, ipa);
 				}
 				
 				

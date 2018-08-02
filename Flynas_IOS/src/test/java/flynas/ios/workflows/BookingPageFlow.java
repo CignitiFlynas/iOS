@@ -198,7 +198,7 @@ public class BookingPageFlow extends Locators{
 	}
 	
 	public void clickFindFlightsBtn() throws Throwable{
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		scrollToText("Find Flights");
 		click_mobile(Locators.findFlights, "Find Flights");
 	}
@@ -1269,6 +1269,7 @@ public class BookingPageFlow extends Locators{
 	
 	
 	public void continueOnPsngrDtls() throws Throwable{
+		Thread.sleep(7000);
 		waitforElement(Locators.passengertitle);
 		scrollJS(Locators.selectExtras_btn);
 		//click(Locators.selectExtras_btn, "Select Extras");
@@ -1280,7 +1281,11 @@ public class BookingPageFlow extends Locators{
 		waitforElement(Locators.baggageTittle);
 		if(isElementDisplayedTemp(Locators.baggageTittle)==true){
 			scrollJS(Locators.selectSeat_btn);
-			click_mobile("Continue to Select Seat","Continue on Extra");
+			click(Locators.travelInsuranceTab,"Travel Insurance Tab");
+			waitforElement(Locators.travelInsuranceCheckbox);
+			//waitForElementPresent(Locators.travelInsuranceCheckbox, "Travel Insurance CheckBox");
+			click(Locators.travelInsuranceCheckbox, "Travel Insurance CheckBox");
+			click_mobile("Continue to Select Seat","Continue to seat selection");
 		}
 	}
 	

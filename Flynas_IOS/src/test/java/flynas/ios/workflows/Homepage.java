@@ -11,6 +11,7 @@ public class Homepage extends Locators{
 	public void select_Bookflights(String userType) throws Throwable
 	{
 		try{
+			waitforElement(Locators.bookbtn);
 			Iosdriver.findElement(Locators.bookbtn).click();
 			Reporter.SuccessReport("Clicking on Book Icon", "Book icon clicked successfully");
 			}
@@ -80,14 +81,15 @@ public class Homepage extends Locators{
 	
 	
 	public void Login(String email,String pwd) throws Throwable
-	{ 	Thread.sleep(8000);
-		if(isElementPresent(Locators.Login_lnk)==false)
+	{ 	
+		Thread.sleep(10000);
+		/*if(isElementPresent(Locators.Login_lnk)==false)
 		{
 		click_mobile("btn menu","Menu icon");
 		scrollJS(Locators.logout_lnk);
 		click_mobile("Logout","Logout button");
 		waitforElement(Locators.logo);
-		}
+		}*/
 		click_mobile("Login","Login link");
 		type(Locators.email, email, "EmailAddress");
 		type(Locators.pasword, pwd, "Password");

@@ -301,6 +301,8 @@ public class Locators extends ActionEngine{
 	
 	public static By Baggage_weight = By.xpath("//label[@name='baggage']");
 	public static By important = By.xpath("//h3[contains(text(),'Important')]");
+	public static By travelInsuranceTab = By.xpath("//XCUIElementTypeStaticText[@name='Travel insurance']/../XCUIElementTypeButton");
+	public static By travelInsuranceCheckbox = By.xpath("//XCUIElementTypeStaticText[@name='Travel insurance (inclusive of 5% VAT)']/../XCUIElementTypeButton[1]");
 	
 		
 	
